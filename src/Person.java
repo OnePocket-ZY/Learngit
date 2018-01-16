@@ -1,4 +1,4 @@
-//¹¹Ôìº¯Êı
+//æ„é€ å‡½æ•°
 class Person{
 	Person(String n, int a){
 		name = n;
@@ -8,17 +8,17 @@ class Person{
 	int age;
 }
 
-//º¯ÊıÖØÔØ
+//å‡½æ•°é‡è½½
 class Reload_A{
 	//void funReload_A(){
-	//	System.out.println("ÕâÊÇÒ»¸öÎŞĞÍ²ÎµÄº¯Êı£»");
+	//	System.out.println("è¿™æ˜¯ä¸€ä¸ªæ— å‹å‚çš„å‡½æ•°ï¼›");
 	//}
 	
-	//void funReload_A(int i){
-	//	System.out.println("ÕâÊÇÒ»¸öÕûĞÍÊµ²ÎµÄº¯Êı£»");
-	//}
+	void funReload_A(int i){
+		System.out.println("è¿™æ˜¯ä¸€ä¸ªæ•´å‹å®å‚çš„å‡½æ•°ï¼›");
+	}
 	
 	void funReload_A(int i, double d){
-		System.out.println("ÕâÊÇÓĞÒ»¸öÕûĞÍÊµ²ÎºÍÒ»¸öË«¾«¶ÈÊµ²ÎµÄº¯Êı¡£");
+		System.out.println("è¿™æ˜¯æœ‰ä¸€ä¸ªæ•´å‹å®å‚å’Œä¸€ä¸ªåŒç²¾åº¦å®å‚çš„å‡½æ•°ã€‚");
 	}
 }
