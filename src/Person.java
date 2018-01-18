@@ -10,9 +10,9 @@ class Person{
 
 //函数重载
 class Reload_A{
-	void funReload_A(){
-		System.out.println("这是一个无型参的函数；");
-	}
+	//void funReload_A(){
+	//	System.out.println("这是一个无型参的函数；");
+	//}
 	
 	void funReload_A(int i){
 		System.out.println("这是一个整型实参的函数；");
